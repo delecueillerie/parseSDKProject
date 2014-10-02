@@ -7,12 +7,20 @@
 //
 
 #import "PSPAppDelegate.h"
+#import <Parse/Parse.h>
+#import "PSPPrivateKey.h"
 
 @implementation PSPAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [Parse setApplicationId:parseApplicationId
+                  clientKey:parseClientKey];
+    
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
     return YES;
 }
 							
