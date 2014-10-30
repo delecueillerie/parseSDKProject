@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PSPViewController : UIViewController
+@interface PSPViewController : UIViewController <UINavigationControllerDelegate, UIImagePickerControllerDelegate, MBProgressHUDDelegate>
 
 @end
