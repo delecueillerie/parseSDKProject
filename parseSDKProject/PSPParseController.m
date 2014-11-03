@@ -19,7 +19,7 @@
     static dispatch_once_t once0;
     dispatch_once(&once0, ^{
         [Parse setApplicationId:parseApplicationId clientKey:parseClientKey];
-        [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+        [PFAnalytics trackAppOpenedWithLaunchOptions:nil];
         
         
         //wipe out user defaults

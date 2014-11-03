@@ -16,7 +16,7 @@
 -(void) userLogin {
     PFUser *currentUser = [PFUser currentUser];
     if (currentUser) {
-        [self refresh:nil];
+        //[self refresh:nil];
     } else {
         // Dummy username and password
         PFUser *user = [PFUser user];
@@ -26,18 +26,15 @@
         
         [user signUpInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
             if (!error) {
-                [self refresh:nil];
+                //[self refresh:nil];
             } else {
                 [PFUser logInWithUsername:@"Matt" password:@"password"];
-                [self refresh:nil];
+                //[self refresh:nil];
             }
         }];
     }
 }
 
-
-
-}
 
 +(void) wipeOutUserDefaults {
     // Wipe out old user defaults

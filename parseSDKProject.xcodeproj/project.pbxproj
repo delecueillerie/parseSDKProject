@@ -10,20 +10,12 @@
 		090B5BD119DD92B3000A7493 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090B5BD019DD92B3000A7493 /* Foundation.framework */; };
 		090B5BD319DD92B3000A7493 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090B5BD219DD92B3000A7493 /* CoreGraphics.framework */; };
 		090B5BD519DD92B3000A7493 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090B5BD419DD92B3000A7493 /* UIKit.framework */; };
-		090B5BDB19DD92B3000A7493 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 090B5BD919DD92B3000A7493 /* InfoPlist.strings */; };
 		090B5BDD19DD92B3000A7493 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 090B5BDC19DD92B3000A7493 /* main.m */; };
 		090B5BE119DD92B3000A7493 /* PSPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 090B5BE019DD92B3000A7493 /* PSPAppDelegate.m */; };
 		090B5BEA19DD92B3000A7493 /* PSPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090B5BE919DD92B3000A7493 /* PSPViewController.m */; };
 		090B5BEC19DD92B3000A7493 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090B5BEB19DD92B3000A7493 /* Images.xcassets */; };
-		090B5BF319DD92B3000A7493 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090B5BF219DD92B3000A7493 /* XCTest.framework */; };
-		090B5BF419DD92B3000A7493 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090B5BD019DD92B3000A7493 /* Foundation.framework */; };
-		090B5BF519DD92B3000A7493 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090B5BD419DD92B3000A7493 /* UIKit.framework */; };
-		090B5BFD19DD92B3000A7493 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 090B5BFB19DD92B3000A7493 /* InfoPlist.strings */; };
-		090B5BFF19DD92B3000A7493 /* parseSDKProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 090B5BFE19DD92B3000A7493 /* parseSDKProjectTests.m */; };
 		090B5C0A19DD9492000A7493 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090B5C0819DD9492000A7493 /* Bolts.framework */; };
-		090B5C0B19DD9492000A7493 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090B5C0819DD9492000A7493 /* Bolts.framework */; };
 		090B5C0C19DD9492000A7493 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090B5C0919DD9492000A7493 /* Parse.framework */; };
-		090B5C0D19DD9492000A7493 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090B5C0919DD9492000A7493 /* Parse.framework */; };
 		090B5C0F19DD95E2000A7493 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090B5C0E19DD95E2000A7493 /* AudioToolbox.framework */; };
 		090B5C1119DD95EB000A7493 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090B5C1019DD95EB000A7493 /* CFNetwork.framework */; };
 		090B5C1319DD95FF000A7493 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090B5C1219DD95FF000A7493 /* CoreLocation.framework */; };
@@ -33,20 +25,13 @@
 		090B5C1B19DD9628000A7493 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090B5C1A19DD9628000A7493 /* Security.framework */; };
 		090B5C1F19DD9640000A7493 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090B5C1E19DD9640000A7493 /* SystemConfiguration.framework */; };
 		090B5C2319DDEBC1000A7493 /* PSPUserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090B5C2219DDEBC1000A7493 /* PSPUserController.m */; };
-		090B5C2419DDEBC1000A7493 /* PSPUserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090B5C2219DDEBC1000A7493 /* PSPUserController.m */; };
 		090B5C2719DDEC6F000A7493 /* PSPParseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090B5C2619DDEC6F000A7493 /* PSPParseController.m */; };
-		090B5C2819DDEC6F000A7493 /* PSPParseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090B5C2619DDEC6F000A7493 /* PSPParseController.m */; };
 		090B5C3119DE0118000A7493 /* PSPIPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 090B5C2F19DE0118000A7493 /* PSPIPhone.storyboard */; };
+		09CC80071A03008100E151E4 /* libMBProgressHUD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 090B5C2E19DDF246000A7493 /* libMBProgressHUD.a */; };
+		09CC80091A03023100E151E4 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 09CC80081A03023100E151E4 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Private, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		090B5BF619DD92B3000A7493 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 090B5BC519DD92B3000A7493 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 090B5BCC19DD92B3000A7493;
-			remoteInfo = parseSDKProject;
-		};
 		090B5C2D19DDF246000A7493 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 090B5C2919DDF246000A7493 /* MBProgressHUD.xcodeproj */;
@@ -62,7 +47,6 @@
 		090B5BD219DD92B3000A7493 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		090B5BD419DD92B3000A7493 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		090B5BD819DD92B3000A7493 /* parseSDKProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "parseSDKProject-Info.plist"; sourceTree = "<group>"; };
-		090B5BDA19DD92B3000A7493 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		090B5BDC19DD92B3000A7493 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		090B5BDE19DD92B3000A7493 /* parseSDKProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "parseSDKProject-Prefix.pch"; sourceTree = "<group>"; };
 		090B5BDF19DD92B3000A7493 /* PSPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSPAppDelegate.h; sourceTree = "<group>"; };
@@ -70,11 +54,7 @@
 		090B5BE819DD92B3000A7493 /* PSPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSPViewController.h; sourceTree = "<group>"; };
 		090B5BE919DD92B3000A7493 /* PSPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSPViewController.m; sourceTree = "<group>"; };
 		090B5BEB19DD92B3000A7493 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		090B5BF119DD92B3000A7493 /* parseSDKProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = parseSDKProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		090B5BF219DD92B3000A7493 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		090B5BFA19DD92B3000A7493 /* parseSDKProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "parseSDKProjectTests-Info.plist"; sourceTree = "<group>"; };
-		090B5BFC19DD92B3000A7493 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		090B5BFE19DD92B3000A7493 /* parseSDKProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = parseSDKProjectTests.m; sourceTree = "<group>"; };
 		090B5C0819DD9492000A7493 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		090B5C0919DD9492000A7493 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		090B5C0E19DD95E2000A7493 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -85,13 +65,14 @@
 		090B5C1819DD961F000A7493 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		090B5C1A19DD9628000A7493 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		090B5C1E19DD9640000A7493 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		090B5C2019DD9764000A7493 /* PSPPrivateKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPPrivateKey.h; sourceTree = "<group>"; };
+		090B5C2019DD9764000A7493 /* PSPPrivateKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSPPrivateKey.h; path = parseSDKProject/PSPPrivateKey.h; sourceTree = "<group>"; };
 		090B5C2119DDEBC1000A7493 /* PSPUserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPUserController.h; sourceTree = "<group>"; };
 		090B5C2219DDEBC1000A7493 /* PSPUserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPUserController.m; sourceTree = "<group>"; };
 		090B5C2519DDEC6F000A7493 /* PSPParseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPParseController.h; sourceTree = "<group>"; };
 		090B5C2619DDEC6F000A7493 /* PSPParseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPParseController.m; sourceTree = "<group>"; };
 		090B5C2919DDF246000A7493 /* MBProgressHUD.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MBProgressHUD.xcodeproj; path = ../MBProgressHUD/MBProgressHUD.xcodeproj; sourceTree = "<group>"; };
 		090B5C3019DE0118000A7493 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/PSPIPhone.storyboard; sourceTree = "<group>"; };
+		09CC80081A03023100E151E4 /* MBProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = ../MBProgressHUD/MBProgressHUD.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09CC80071A03008100E151E4 /* libMBProgressHUD.a in Frameworks */,
 				090B5C1F19DD9640000A7493 /* SystemConfiguration.framework in Frameworks */,
 				090B5C1B19DD9628000A7493 /* Security.framework in Frameworks */,
 				090B5C1919DD961F000A7493 /* QuartzCore.framework in Frameworks */,
@@ -115,27 +97,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		090B5BEE19DD92B3000A7493 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				090B5BF319DD92B3000A7493 /* XCTest.framework in Frameworks */,
-				090B5BF519DD92B3000A7493 /* UIKit.framework in Frameworks */,
-				090B5BF419DD92B3000A7493 /* Foundation.framework in Frameworks */,
-				090B5C0B19DD9492000A7493 /* Bolts.framework in Frameworks */,
-				090B5C0D19DD9492000A7493 /* Parse.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		090B5BC419DD92B3000A7493 = {
 			isa = PBXGroup;
 			children = (
+				09CC80081A03023100E151E4 /* MBProgressHUD.h */,
+				090B5C2019DD9764000A7493 /* PSPPrivateKey.h */,
 				090B5C2919DDF246000A7493 /* MBProgressHUD.xcodeproj */,
 				090B5BD619DD92B3000A7493 /* parseSDKProject */,
-				090B5BF819DD92B3000A7493 /* parseSDKProjectTests */,
 				090B5BCF19DD92B3000A7493 /* Frameworks */,
 				090B5BCE19DD92B3000A7493 /* Products */,
 			);
@@ -145,7 +116,6 @@
 			isa = PBXGroup;
 			children = (
 				090B5BCD19DD92B3000A7493 /* parseSDKProject.app */,
-				090B5BF119DD92B3000A7493 /* parseSDKProjectTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -153,11 +123,11 @@
 		090B5BCF19DD92B3000A7493 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				090B5C1419DD960D000A7493 /* libz.dylib */,
 				090B5C1E19DD9640000A7493 /* SystemConfiguration.framework */,
 				090B5C1A19DD9628000A7493 /* Security.framework */,
 				090B5C1819DD961F000A7493 /* QuartzCore.framework */,
 				090B5C1619DD9617000A7493 /* MobileCoreServices.framework */,
-				090B5C1419DD960D000A7493 /* libz.dylib */,
 				090B5C1219DD95FF000A7493 /* CoreLocation.framework */,
 				090B5C1019DD95EB000A7493 /* CFNetwork.framework */,
 				090B5C0E19DD95E2000A7493 /* AudioToolbox.framework */,
@@ -174,18 +144,12 @@
 		090B5BD619DD92B3000A7493 /* parseSDKProject */ = {
 			isa = PBXGroup;
 			children = (
-				090B5BDF19DD92B3000A7493 /* PSPAppDelegate.h */,
-				090B5BE019DD92B3000A7493 /* PSPAppDelegate.m */,
-				090B5C2F19DE0118000A7493 /* PSPIPhone.storyboard */,
-				090B5BE819DD92B3000A7493 /* PSPViewController.h */,
-				090B5BE919DD92B3000A7493 /* PSPViewController.m */,
 				090B5C2519DDEC6F000A7493 /* PSPParseController.h */,
 				090B5C2619DDEC6F000A7493 /* PSPParseController.m */,
 				090B5C2119DDEBC1000A7493 /* PSPUserController.h */,
 				090B5C2219DDEBC1000A7493 /* PSPUserController.m */,
 				090B5BEB19DD92B3000A7493 /* Images.xcassets */,
-				090B5BD719DD92B3000A7493 /* Supporting Files */,
-				090B5C2019DD9764000A7493 /* PSPPrivateKey.h */,
+				09CC80041A02E56B00E151E4 /* app */,
 			);
 			path = parseSDKProject;
 			sourceTree = "<group>";
@@ -194,27 +158,8 @@
 			isa = PBXGroup;
 			children = (
 				090B5BD819DD92B3000A7493 /* parseSDKProject-Info.plist */,
-				090B5BD919DD92B3000A7493 /* InfoPlist.strings */,
 				090B5BDC19DD92B3000A7493 /* main.m */,
 				090B5BDE19DD92B3000A7493 /* parseSDKProject-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		090B5BF819DD92B3000A7493 /* parseSDKProjectTests */ = {
-			isa = PBXGroup;
-			children = (
-				090B5BFE19DD92B3000A7493 /* parseSDKProjectTests.m */,
-				090B5BF919DD92B3000A7493 /* Supporting Files */,
-			);
-			path = parseSDKProjectTests;
-			sourceTree = "<group>";
-		};
-		090B5BF919DD92B3000A7493 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				090B5BFA19DD92B3000A7493 /* parseSDKProjectTests-Info.plist */,
-				090B5BFB19DD92B3000A7493 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -227,7 +172,31 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		09CC80041A02E56B00E151E4 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				090B5BDF19DD92B3000A7493 /* PSPAppDelegate.h */,
+				090B5BE019DD92B3000A7493 /* PSPAppDelegate.m */,
+				090B5C2F19DE0118000A7493 /* PSPIPhone.storyboard */,
+				090B5BE819DD92B3000A7493 /* PSPViewController.h */,
+				090B5BE919DD92B3000A7493 /* PSPViewController.m */,
+				090B5BD719DD92B3000A7493 /* Supporting Files */,
+			);
+			name = app;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		09CC80061A03002300E151E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09CC80091A03023100E151E4 /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		090B5BCC19DD92B3000A7493 /* parseSDKProject */ = {
@@ -237,6 +206,7 @@
 				090B5BC919DD92B3000A7493 /* Sources */,
 				090B5BCA19DD92B3000A7493 /* Frameworks */,
 				090B5BCB19DD92B3000A7493 /* Resources */,
+				09CC80061A03002300E151E4 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -246,24 +216,6 @@
 			productName = parseSDKProject;
 			productReference = 090B5BCD19DD92B3000A7493 /* parseSDKProject.app */;
 			productType = "com.apple.product-type.application";
-		};
-		090B5BF019DD92B3000A7493 /* parseSDKProjectTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 090B5C0519DD92B3000A7493 /* Build configuration list for PBXNativeTarget "parseSDKProjectTests" */;
-			buildPhases = (
-				090B5BED19DD92B3000A7493 /* Sources */,
-				090B5BEE19DD92B3000A7493 /* Frameworks */,
-				090B5BEF19DD92B3000A7493 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				090B5BF719DD92B3000A7493 /* PBXTargetDependency */,
-			);
-			name = parseSDKProjectTests;
-			productName = parseSDKProjectTests;
-			productReference = 090B5BF119DD92B3000A7493 /* parseSDKProjectTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -282,9 +234,6 @@
 								enabled = 0;
 							};
 						};
-					};
-					090B5BF019DD92B3000A7493 = {
-						TestTargetID = 090B5BCC19DD92B3000A7493;
 					};
 				};
 			};
@@ -308,7 +257,6 @@
 			projectRoot = "";
 			targets = (
 				090B5BCC19DD92B3000A7493 /* parseSDKProject */,
-				090B5BF019DD92B3000A7493 /* parseSDKProjectTests */,
 			);
 		};
 /* End PBXProject section */
@@ -330,15 +278,6 @@
 			files = (
 				090B5BEC19DD92B3000A7493 /* Images.xcassets in Resources */,
 				090B5C3119DE0118000A7493 /* PSPIPhone.storyboard in Resources */,
-				090B5BDB19DD92B3000A7493 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		090B5BEF19DD92B3000A7493 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				090B5BFD19DD92B3000A7493 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,43 +296,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		090B5BED19DD92B3000A7493 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				090B5BFF19DD92B3000A7493 /* parseSDKProjectTests.m in Sources */,
-				090B5C2819DDEC6F000A7493 /* PSPParseController.m in Sources */,
-				090B5C2419DDEBC1000A7493 /* PSPUserController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		090B5BF719DD92B3000A7493 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 090B5BCC19DD92B3000A7493 /* parseSDKProject */;
-			targetProxy = 090B5BF619DD92B3000A7493 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		090B5BD919DD92B3000A7493 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				090B5BDA19DD92B3000A7493 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		090B5BFB19DD92B3000A7493 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				090B5BFC19DD92B3000A7493 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		090B5C2F19DE0118000A7493 /* PSPIPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -484,7 +389,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/**",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "parseSDKProject/parseSDKProject-Prefix.pch";
@@ -501,55 +406,13 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/**",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "parseSDKProject/parseSDKProject-Prefix.pch";
 				INFOPLIST_FILE = "parseSDKProject/parseSDKProject-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		090B5C0619DD92B3000A7493 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/parseSDKProject.app/parseSDKProject";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(PROJECT_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "parseSDKProject/parseSDKProject-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "parseSDKProjectTests/parseSDKProjectTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		090B5C0719DD92B3000A7493 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/parseSDKProject.app/parseSDKProject";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(PROJECT_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "parseSDKProject/parseSDKProject-Prefix.pch";
-				INFOPLIST_FILE = "parseSDKProjectTests/parseSDKProjectTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -570,15 +433,6 @@
 			buildConfigurations = (
 				090B5C0319DD92B3000A7493 /* Debug */,
 				090B5C0419DD92B3000A7493 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		090B5C0519DD92B3000A7493 /* Build configuration list for PBXNativeTarget "parseSDKProjectTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				090B5C0619DD92B3000A7493 /* Debug */,
-				090B5C0719DD92B3000A7493 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
