@@ -7,10 +7,35 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <Parse/Parse.h> 
+#import "PSPUser.h"
 
-@interface PSPUserController: NSObject
+@protocol userControllerDelegate <NSObject>
+
+-(void) popLogIn:(UIViewController *)viewController;
+-(void) popSignIn:(UIViewController *)viewController;
+
+-(void) updateUser;
+@end
 
 
-+(void) wipeOutUserDefaults;
+@interface PSPUserController: NSObject <PFLogInViewControllerDelegate, PFSignUpViewControllerDelegate, userDelegate>
+
+
+
+
+@property (strong, nonatomic) PSPUser *user;
+
+
+
++(PSPUserController *)sharedInstance;
+
+-(void) wipeOutUserDefaults;
+-(void) logOut;
+-(PFLogInViewController *)logInViewController;
+-(PFSignUpViewController *)signInViewController;
+-(void) anonymousLogIn;
+
+@property (weak, nonatomic) id<userControllerDelegate> delegate;
 
 @end

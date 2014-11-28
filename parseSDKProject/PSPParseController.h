@@ -10,4 +10,8 @@
 
 @interface PSPParseController : NSObject
 
+
++(void)parseIdentification;
++(PSPParseController *)sharedInstance;
+
 @end

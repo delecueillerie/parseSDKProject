@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MBProgressHUD.h"
-@interface PSPViewController : UIViewController <UINavigationControllerDelegate, UIImagePickerControllerDelegate, MBProgressHUDDelegate>
 
+//Controller
+#import "PSPUserController.h"
+
+@interface PSPViewController : UITableViewController <userControllerDelegate>
+
+@property (strong, nonatomic) NSMutableArray *mArrayData;
 @end

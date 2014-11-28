@@ -13,7 +13,7 @@
 		090B5BDD19DD92B3000A7493 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 090B5BDC19DD92B3000A7493 /* main.m */; };
 		090B5BE119DD92B3000A7493 /* PSPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 090B5BE019DD92B3000A7493 /* PSPAppDelegate.m */; };
 		090B5BEA19DD92B3000A7493 /* PSPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090B5BE919DD92B3000A7493 /* PSPViewController.m */; };
-		090B5BEC19DD92B3000A7493 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090B5BEB19DD92B3000A7493 /* Images.xcassets */; };
+		090B5BEC19DD92B3000A7493 /* PSPImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090B5BEB19DD92B3000A7493 /* PSPImages.xcassets */; };
 		090B5C0A19DD9492000A7493 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090B5C0819DD9492000A7493 /* Bolts.framework */; };
 		090B5C0C19DD9492000A7493 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090B5C0919DD9492000A7493 /* Parse.framework */; };
 		090B5C0F19DD95E2000A7493 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090B5C0E19DD95E2000A7493 /* AudioToolbox.framework */; };
@@ -27,16 +27,32 @@
 		090B5C2319DDEBC1000A7493 /* PSPUserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090B5C2219DDEBC1000A7493 /* PSPUserController.m */; };
 		090B5C2719DDEC6F000A7493 /* PSPParseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090B5C2619DDEC6F000A7493 /* PSPParseController.m */; };
 		090B5C3119DE0118000A7493 /* PSPIPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 090B5C2F19DE0118000A7493 /* PSPIPhone.storyboard */; };
-		09CC80071A03008100E151E4 /* libMBProgressHUD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 090B5C2E19DDF246000A7493 /* libMBProgressHUD.a */; };
-		09CC80091A03023100E151E4 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 09CC80081A03023100E151E4 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		095309E31A1FA5C40061A5A1 /* PSPUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 095309E11A1FA5C40061A5A1 /* PSPUser.h */; };
+		095309E41A1FA5C40061A5A1 /* PSPUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 095309E21A1FA5C40061A5A1 /* PSPUser.m */; };
+		095309E91A28B5360061A5A1 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 095309E81A28B5360061A5A1 /* README.md */; };
+		0970C3131A1A5B58004289EC /* PSPSignUpViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0970C3111A1A5B58004289EC /* PSPSignUpViewController.h */; };
+		0970C3141A1A5B58004289EC /* PSPSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0970C3121A1A5B58004289EC /* PSPSignUpViewController.m */; };
+		0970C3171A1A5DBB004289EC /* PSPLogInViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0970C3151A1A5DBB004289EC /* PSPLogInViewController.h */; };
+		0970C3181A1A5DBB004289EC /* PSPLogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0970C3161A1A5DBB004289EC /* PSPLogInViewController.m */; };
+		09CAEB0E1A0CF1B0008E4E96 /* libMBProgressHUD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CAEB0B1A0CF182008E4E96 /* libMBProgressHUD.a */; };
+		09CAEB161A0D0A01008E4E96 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CAEB151A0D0A01008E4E96 /* StoreKit.framework */; };
+		09CAEB181A0D2803008E4E96 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CAEB171A0D2803008E4E96 /* Social.framework */; };
+		09CAEB1A1A0D2814008E4E96 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CAEB191A0D2814008E4E96 /* Accounts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		090B5C2D19DDF246000A7493 /* PBXContainerItemProxy */ = {
+		09CAEB0A1A0CF182008E4E96 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 090B5C2919DDF246000A7493 /* MBProgressHUD.xcodeproj */;
+			containerPortal = 09CAEB061A0CF182008E4E96 /* MBProgressHUD.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D286A7491518C70F00E13FB8;
+			remoteInfo = MBProgressHUD;
+		};
+		09CAEB0C1A0CF19F008E4E96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09CAEB061A0CF182008E4E96 /* MBProgressHUD.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D286A7481518C70F00E13FB8;
 			remoteInfo = MBProgressHUD;
 		};
 /* End PBXContainerItemProxy section */
@@ -53,8 +69,7 @@
 		090B5BE019DD92B3000A7493 /* PSPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSPAppDelegate.m; sourceTree = "<group>"; };
 		090B5BE819DD92B3000A7493 /* PSPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSPViewController.h; sourceTree = "<group>"; };
 		090B5BE919DD92B3000A7493 /* PSPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSPViewController.m; sourceTree = "<group>"; };
-		090B5BEB19DD92B3000A7493 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		090B5BF219DD92B3000A7493 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		090B5BEB19DD92B3000A7493 /* PSPImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PSPImages.xcassets; sourceTree = "<group>"; };
 		090B5C0819DD9492000A7493 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		090B5C0919DD9492000A7493 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		090B5C0E19DD95E2000A7493 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -70,9 +85,18 @@
 		090B5C2219DDEBC1000A7493 /* PSPUserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPUserController.m; sourceTree = "<group>"; };
 		090B5C2519DDEC6F000A7493 /* PSPParseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPParseController.h; sourceTree = "<group>"; };
 		090B5C2619DDEC6F000A7493 /* PSPParseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPParseController.m; sourceTree = "<group>"; };
-		090B5C2919DDF246000A7493 /* MBProgressHUD.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MBProgressHUD.xcodeproj; path = ../MBProgressHUD/MBProgressHUD.xcodeproj; sourceTree = "<group>"; };
 		090B5C3019DE0118000A7493 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/PSPIPhone.storyboard; sourceTree = "<group>"; };
-		09CC80081A03023100E151E4 /* MBProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = ../MBProgressHUD/MBProgressHUD.h; sourceTree = "<group>"; };
+		095309E11A1FA5C40061A5A1 /* PSPUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPUser.h; sourceTree = "<group>"; };
+		095309E21A1FA5C40061A5A1 /* PSPUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPUser.m; sourceTree = "<group>"; };
+		095309E81A28B5360061A5A1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		0970C3111A1A5B58004289EC /* PSPSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPSignUpViewController.h; sourceTree = "<group>"; };
+		0970C3121A1A5B58004289EC /* PSPSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPSignUpViewController.m; sourceTree = "<group>"; };
+		0970C3151A1A5DBB004289EC /* PSPLogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPLogInViewController.h; sourceTree = "<group>"; };
+		0970C3161A1A5DBB004289EC /* PSPLogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPLogInViewController.m; sourceTree = "<group>"; };
+		09CAEB061A0CF182008E4E96 /* MBProgressHUD.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MBProgressHUD.xcodeproj; path = ../MBProgressHUD/MBProgressHUD.xcodeproj; sourceTree = "<group>"; };
+		09CAEB151A0D0A01008E4E96 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		09CAEB171A0D2803008E4E96 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		09CAEB191A0D2814008E4E96 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +104,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09CC80071A03008100E151E4 /* libMBProgressHUD.a in Frameworks */,
+				09CAEB1A1A0D2814008E4E96 /* Accounts.framework in Frameworks */,
+				09CAEB181A0D2803008E4E96 /* Social.framework in Frameworks */,
+				09CAEB161A0D0A01008E4E96 /* StoreKit.framework in Frameworks */,
+				09CAEB0E1A0CF1B0008E4E96 /* libMBProgressHUD.a in Frameworks */,
 				090B5C1F19DD9640000A7493 /* SystemConfiguration.framework in Frameworks */,
 				090B5C1B19DD9628000A7493 /* Security.framework in Frameworks */,
 				090B5C1919DD961F000A7493 /* QuartzCore.framework in Frameworks */,
@@ -103,9 +130,9 @@
 		090B5BC419DD92B3000A7493 = {
 			isa = PBXGroup;
 			children = (
-				09CC80081A03023100E151E4 /* MBProgressHUD.h */,
 				090B5C2019DD9764000A7493 /* PSPPrivateKey.h */,
-				090B5C2919DDF246000A7493 /* MBProgressHUD.xcodeproj */,
+				095309E81A28B5360061A5A1 /* README.md */,
+				09CAEB061A0CF182008E4E96 /* MBProgressHUD.xcodeproj */,
 				090B5BD619DD92B3000A7493 /* parseSDKProject */,
 				090B5BCF19DD92B3000A7493 /* Frameworks */,
 				090B5BCE19DD92B3000A7493 /* Products */,
@@ -123,6 +150,9 @@
 		090B5BCF19DD92B3000A7493 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				09CAEB191A0D2814008E4E96 /* Accounts.framework */,
+				09CAEB171A0D2803008E4E96 /* Social.framework */,
+				09CAEB151A0D0A01008E4E96 /* StoreKit.framework */,
 				090B5C1419DD960D000A7493 /* libz.dylib */,
 				090B5C1E19DD9640000A7493 /* SystemConfiguration.framework */,
 				090B5C1A19DD9628000A7493 /* Security.framework */,
@@ -136,7 +166,6 @@
 				090B5BD019DD92B3000A7493 /* Foundation.framework */,
 				090B5BD219DD92B3000A7493 /* CoreGraphics.framework */,
 				090B5BD419DD92B3000A7493 /* UIKit.framework */,
-				090B5BF219DD92B3000A7493 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -144,11 +173,9 @@
 		090B5BD619DD92B3000A7493 /* parseSDKProject */ = {
 			isa = PBXGroup;
 			children = (
-				090B5C2519DDEC6F000A7493 /* PSPParseController.h */,
-				090B5C2619DDEC6F000A7493 /* PSPParseController.m */,
-				090B5C2119DDEBC1000A7493 /* PSPUserController.h */,
-				090B5C2219DDEBC1000A7493 /* PSPUserController.m */,
-				090B5BEB19DD92B3000A7493 /* Images.xcassets */,
+				095309E01A1FA5890061A5A1 /* Model */,
+				095309DF1A1FA5460061A5A1 /* Controller */,
+				090B5BEB19DD92B3000A7493 /* PSPImages.xcassets */,
 				09CC80041A02E56B00E151E4 /* app */,
 			);
 			path = parseSDKProject;
@@ -164,10 +191,42 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		090B5C2A19DDF246000A7493 /* Products */ = {
+		095309DE1A1FA5390061A5A1 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				090B5C2E19DDF246000A7493 /* libMBProgressHUD.a */,
+				0970C3111A1A5B58004289EC /* PSPSignUpViewController.h */,
+				0970C3121A1A5B58004289EC /* PSPSignUpViewController.m */,
+				0970C3151A1A5DBB004289EC /* PSPLogInViewController.h */,
+				0970C3161A1A5DBB004289EC /* PSPLogInViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		095309DF1A1FA5460061A5A1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				090B5C2519DDEC6F000A7493 /* PSPParseController.h */,
+				090B5C2619DDEC6F000A7493 /* PSPParseController.m */,
+				090B5C2119DDEBC1000A7493 /* PSPUserController.h */,
+				090B5C2219DDEBC1000A7493 /* PSPUserController.m */,
+				095309DE1A1FA5390061A5A1 /* ViewController */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		095309E01A1FA5890061A5A1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				095309E11A1FA5C40061A5A1 /* PSPUser.h */,
+				095309E21A1FA5C40061A5A1 /* PSPUser.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		09CAEB071A0CF182008E4E96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09CAEB0B1A0CF182008E4E96 /* libMBProgressHUD.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -192,7 +251,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09CC80091A03023100E151E4 /* MBProgressHUD.h in Headers */,
+				0970C3131A1A5B58004289EC /* PSPSignUpViewController.h in Headers */,
+				095309E31A1FA5C40061A5A1 /* PSPUser.h in Headers */,
+				0970C3171A1A5DBB004289EC /* PSPLogInViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +272,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				09CAEB0D1A0CF19F008E4E96 /* PBXTargetDependency */,
 			);
 			name = parseSDKProject;
 			productName = parseSDKProject;
@@ -250,8 +312,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 090B5C2A19DDF246000A7493 /* Products */;
-					ProjectRef = 090B5C2919DDF246000A7493 /* MBProgressHUD.xcodeproj */;
+					ProductGroup = 09CAEB071A0CF182008E4E96 /* Products */;
+					ProjectRef = 09CAEB061A0CF182008E4E96 /* MBProgressHUD.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -262,11 +324,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		090B5C2E19DDF246000A7493 /* libMBProgressHUD.a */ = {
+		09CAEB0B1A0CF182008E4E96 /* libMBProgressHUD.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libMBProgressHUD.a;
-			remoteRef = 090B5C2D19DDF246000A7493 /* PBXContainerItemProxy */;
+			remoteRef = 09CAEB0A1A0CF182008E4E96 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -276,7 +338,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				090B5BEC19DD92B3000A7493 /* Images.xcassets in Resources */,
+				090B5BEC19DD92B3000A7493 /* PSPImages.xcassets in Resources */,
 				090B5C3119DE0118000A7493 /* PSPIPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,11 +354,23 @@
 				090B5C2319DDEBC1000A7493 /* PSPUserController.m in Sources */,
 				090B5BE119DD92B3000A7493 /* PSPAppDelegate.m in Sources */,
 				090B5C2719DDEC6F000A7493 /* PSPParseController.m in Sources */,
+				0970C3141A1A5B58004289EC /* PSPSignUpViewController.m in Sources */,
+				0970C3181A1A5DBB004289EC /* PSPLogInViewController.m in Sources */,
+				095309E91A28B5360061A5A1 /* README.md in Sources */,
+				095309E41A1FA5C40061A5A1 /* PSPUser.m in Sources */,
 				090B5BDD19DD92B3000A7493 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09CAEB0D1A0CF19F008E4E96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			targetProxy = 09CAEB0C1A0CF19F008E4E96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		090B5C2F19DE0118000A7493 /* PSPIPhone.storyboard */ = {
@@ -393,7 +467,13 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "parseSDKProject/parseSDKProject-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					$SOURCE_ROOT/include,
+				);
 				INFOPLIST_FILE = "parseSDKProject/parseSDKProject-Info.plist";
+				OTHER_LDFLAGS = " -ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -410,7 +490,13 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "parseSDKProject/parseSDKProject-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					$SOURCE_ROOT/include,
+				);
 				INFOPLIST_FILE = "parseSDKProject/parseSDKProject-Info.plist";
+				OTHER_LDFLAGS = " -ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

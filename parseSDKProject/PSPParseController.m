@@ -14,17 +14,30 @@
 @implementation PSPParseController
 
 
-+(void) appIdentification {
-    
-    static dispatch_once_t once0;
-    dispatch_once(&once0, ^{
+
++(void)parseIdentification {
+    static dispatch_once_t once;
+    dispatch_once(&once, ^{
         [Parse setApplicationId:parseApplicationId clientKey:parseClientKey];
         [PFAnalytics trackAppOpenedWithLaunchOptions:nil];
+    });
+}
+
+
++(PSPParseController *) sharedInstance {
+    static PSPParseController *_sharedInstance;
+    static dispatch_once_t once;
+    dispatch_once(&once, ^{
+        //[Parse setApplicationId:parseApplicationId clientKey:parseClientKey];
+        //[PFAnalytics trackAppOpenedWithLaunchOptions:nil];
+        
+        _sharedInstance = [[PSPParseController alloc] init];
         
         
         //wipe out user defaults
-        [PSPUserController wipeOutUserDefaults];
+        [[PSPUserController sharedInstance] wipeOutUserDefaults];
     });
+    return _sharedInstance;
 }
 
 @end
