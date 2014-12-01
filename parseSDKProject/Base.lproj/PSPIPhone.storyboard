@@ -5,79 +5,72 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
-        <scene sceneID="pbD-R3-GX7">
+        <!--View Controller-->
+        <scene sceneID="EnV-ib-Ce6">
             <objects>
-                <tableViewController id="SQ1-Et-Dlr" customClass="PSPViewController" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="bDc-mt-WrL">
+                <viewController id="RTd-9l-5na" customClass="PSPViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GBu-Tw-Xjs"/>
+                        <viewControllerLayoutGuide type="bottom" id="Rvp-15-PZ7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9EQ-vB-xxt">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sAu-IV-bcI">
+                                <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                                <items>
+                                    <barButtonItem title="log in" id="dCy-1Y-pof">
+                                        <connections>
+                                            <action selector="logIn:" destination="RTd-9l-5na" id="AaI-2F-FVS"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="bqH-pG-5Hq"/>
+                                    <barButtonItem title="log out" id="6xb-UG-x65">
+                                        <connections>
+                                            <action selector="logOut:" destination="RTd-9l-5na" id="a19-YO-cTc"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="S4r-0h-MaI"/>
+                                    <barButtonItem title="sign in" id="huh-Tp-npU">
+                                        <connections>
+                                            <action selector="signIn:" destination="RTd-9l-5na" id="6iF-l1-L5V"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Sy6-6a-DtP"/>
+                                    <barButtonItem title="anonymous" id="SDf-GL-wCp">
+                                        <connections>
+                                            <action selector="anonymous:" destination="RTd-9l-5na" id="5uP-qy-yfK"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="9Ib-bq-aDt">
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9Ib-bq-aDt" id="jvG-nW-Fs4">
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="SQ1-Et-Dlr" id="qCc-Cq-3ta"/>
-                            <outlet property="delegate" destination="SQ1-Et-Dlr" id="HUV-NL-g02"/>
-                        </connections>
-                    </tableView>
-                    <toolbarItems>
-                        <barButtonItem title="log in" id="dCy-1Y-pof">
-                            <connections>
-                                <action selector="logIn:" destination="SQ1-Et-Dlr" id="HRx-er-6pV"/>
-                            </connections>
-                        </barButtonItem>
-                        <barButtonItem style="plain" systemItem="flexibleSpace" id="bqH-pG-5Hq"/>
-                        <barButtonItem title="log out" id="6xb-UG-x65">
-                            <connections>
-                                <action selector="logOut:" destination="SQ1-Et-Dlr" id="39E-jX-q52"/>
-                            </connections>
-                        </barButtonItem>
-                        <barButtonItem style="plain" systemItem="flexibleSpace" id="S4r-0h-MaI"/>
-                        <barButtonItem title="sign in" id="huh-Tp-npU">
-                            <connections>
-                                <action selector="signIn:" destination="SQ1-Et-Dlr" id="WeT-zv-si4"/>
-                            </connections>
-                        </barButtonItem>
-                        <barButtonItem style="plain" systemItem="flexibleSpace" id="Sy6-6a-DtP"/>
-                        <barButtonItem title="anonymous" id="SDf-GL-wCp">
-                            <connections>
-                                <action selector="anonymous:" destination="SQ1-Et-Dlr" id="wfe-y3-yZu"/>
-                            </connections>
-                        </barButtonItem>
-                    </toolbarItems>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="ZsN-3M-RgT"/>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ssI-du-jWc"/>
                     <connections>
-                        <outlet property="anonymousBBItem" destination="SDf-GL-wCp" id="ehi-mV-hSL"/>
-                        <outlet property="logInBBItem" destination="dCy-1Y-pof" id="YOZ-wh-9LI"/>
-                        <outlet property="logOutBBItem" destination="6xb-UG-x65" id="CNm-Dv-c4s"/>
-                        <outlet property="signInBBItem" destination="huh-Tp-npU" id="vjf-lu-RYR"/>
+                        <outlet property="anonymousBBItem" destination="SDf-GL-wCp" id="Hq8-fC-27e"/>
+                        <outlet property="logInBBItem" destination="dCy-1Y-pof" id="cEL-bw-cFB"/>
+                        <outlet property="logOutBBItem" destination="6xb-UG-x65" id="SmT-UZ-WFH"/>
+                        <outlet property="signInBBItem" destination="huh-Tp-npU" id="zeG-B6-sd3"/>
                     </connections>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="y0d-ao-f5V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w9M-QJ-r18" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="521" y="296"/>
+            <point key="canvasLocation" x="510" y="296"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="BZc-O5-cox">
             <objects>
-                <navigationController toolbarHidden="NO" id="Syf-Z4-sV5" sceneMemberID="viewController">
+                <navigationController id="Syf-Z4-sV5" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="8hD-8k-NBz">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
-                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="fro-RA-M3y">
-                        <autoresizingMask key="autoresizingMask"/>
-                    </toolbar>
                     <connections>
-                        <segue destination="SQ1-Et-Dlr" kind="relationship" relationship="rootViewController" id="vdE-ey-rAa"/>
+                        <segue destination="RTd-9l-5na" kind="relationship" relationship="rootViewController" id="N57-cB-k5s"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZfY-1u-55J" userLabel="First Responder" sceneMemberID="firstResponder"/>

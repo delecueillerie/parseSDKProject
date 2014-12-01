@@ -11,7 +11,7 @@
 //Controller
 #import "PSPUserController.h"
 
-@interface PSPViewController : UITableViewController <userControllerDelegate>
+@interface PSPViewController : UIViewController <userControllerDelegate>
 
 @property (strong, nonatomic) NSMutableArray *mArrayData;
 @end
